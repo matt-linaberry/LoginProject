@@ -16,6 +16,10 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        userNameLabel.text = NSUserDefaults().objectForKey(userNameKey) as? String // there might not be anything there!!
+        passwordTextField.text = NSUserDefaults().objectForKey(passwordKey) as? String
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -20,8 +20,7 @@ class CreateAccountViewController: UIViewController {
     
     var delegate:CreateAccountViewControllerDelegate?
     
-    let userNameKey = "userNameKey"
-    let passwordKey = "passwordKey"
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
